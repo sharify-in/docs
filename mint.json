@@ -2,24 +2,28 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Documentation Starter Kit",
   "logo": {
-    "dark": "/logo/dark.png",
-    "light": "/logo/light.png"
+    "dark": "/logo/sharify.png",
+    "light": "/logo/dark.png"
   },
   "favicon": "/favicon.png",
   "colors": {
-    "primary": "#0069ED",
+    "primary": "#3e97ff",
     "light": "#4D9CFF",
     "dark": "#0050B4"
   },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  },
   "topbarLinks": [
     {
-      "name": "Documentation",
-      "url": "https://mintlify.com/docs"
+      "name": "Community",
+      "url": "https://discord.gg/9cvW7MsUC6"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://github.com/mintlify/starter"
+    "url": "api-reference"
   },
   "anchors": [
     {
@@ -28,20 +32,20 @@
       "url": "api-reference"
     },
     {
-      "name": "Changelog",
-      "icon": "list",
-      "url": "https://mintlify.com"
-    },
-    {
       "name": "Community",
       "icon": "discord",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.gg/9cvW7MsUC6"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/sharify-in"
     }
   ],
   "navigation": [
     {
       "group": "Home",
-      "pages": ["introduction", "features"]
+      "pages": ["introduction"]
     },
     {
       "group": "API Documentation",
@@ -58,8 +62,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "discord": "https://discord.gg/9cvW7MsUC6",
+    "github": "https://github.com/sharify-in"
   }
 }
